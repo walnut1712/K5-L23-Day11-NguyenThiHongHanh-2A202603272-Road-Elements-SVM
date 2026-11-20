@@ -3,46 +3,46 @@
   "format": "CVAT for images 1.1",
   "guideline": "Road v1.0",
   "name": "nguyenthihonghanh",
-  "revision": 1,
-  "created_at": "2026-11-20T17:25:45+00:00",
+  "revision": 2,
+  "created_at": "2026-11-20T18:24:37+00:00",
   "files": [
     {
       "file": "nguyenthihonghanh-front.zip",
-      "bytes": 59328,
-      "sha256": "2e7ee12a2d70031ea3ab8632cb5342cef594c7c35fb6aac54f3466155f4cd9d4",
+      "bytes": 9444,
+      "sha256": "4b672fdf20faeffd1a8ab10fac88908cd44999ed851053fa0943a17c23a5e6ee",
+      "contains_images": false,
+      "images": 16,
+      "images_unlabelled": 0,
+      "images_all_tags": 16,
+      "shapes_by_label": {
+        "crosswalk": 9,
+        "drivable": 30,
+        "lane": 46,
+        "road_curb": 22,
+        "traffic_light": 57,
+        "traffic_sign": 46
+      }
+    },
+    {
+      "file": "nguyenthihonghanh-fisheye.zip",
+      "bytes": 4703,
+      "sha256": "38f00182a83569dcd5653f92b95594189e1cf8e557dd851b9dfa007c4666b10a",
       "contains_images": false,
       "images": 12,
       "images_unlabelled": 0,
       "images_all_tags": 12,
       "shapes_by_label": {
-        "crosswalk": 4,
-        "drivable": 23,
-        "lane": 34,
-        "road_curb": 17,
-        "traffic_light": 48,
-        "traffic_sign": 32
-      }
-    },
-    {
-      "file": "nguyenthihonghanh-fisheye.zip",
-      "bytes": 21617,
-      "sha256": "a5f620db40bf58e44235f1c9d204253dbcce5fd0cd5f18b3f49671b714a02bb2",
-      "contains_images": false,
-      "images": 8,
-      "images_unlabelled": 0,
-      "images_all_tags": 8,
-      "shapes_by_label": {
-        "crosswalk": 10,
-        "lane": 5,
-        "road_curb": 10,
+        "crosswalk": 15,
+        "lane": 7,
+        "road_curb": 16,
         "traffic_light": 6,
-        "traffic_sign": 8
+        "traffic_sign": 9
       }
     }
   ],
   "lint": {
-    "nặng": 5,
-    "chính": 12,
+    "nặng": 6,
+    "chính": 17,
     "nhẹ": 7
   },
   "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
